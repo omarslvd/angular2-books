@@ -1,0 +1,16 @@
+.demo-card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.demo-card-container md-card {
+  margin: 0 16px 16px 0;
+  width: 400px;
+  background-color: #FFF;
+  /*flex: 1 0 auto;*/
+}
+
+.demo-card-container img {
+  background-color: gray;
+}
+

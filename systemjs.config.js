@@ -34,6 +34,9 @@
     'button',
     'card',
     'toolbar',
+    'sidenav',
+    'icon',
+    'list',
   ];
   materialPkgs.forEach((pkg) => {
     packages[`@angular2-material/${pkg}`] = { main: `${pkg}.js` }
