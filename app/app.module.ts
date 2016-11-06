@@ -1,6 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule }     from '@angular/http';
+import { MdCoreModule } from '@angular2-material/core';
 import { MdCardModule } from '@angular2-material/card';
 import { MdButtonModule } from '@angular2-material/button';
 import { MdToolbarModule } from '@angular2-material/toolbar';
@@ -20,12 +21,13 @@ import { routes } from './app.routes';
   imports: [
     BrowserModule,
     HttpModule,
-    MdCardModule,
-    MdButtonModule,
-    MdToolbarModule,
-    MdSidenavModule,
-    MdIconModule,
-    MdListModule,
+    MdCoreModule.forRoot(),
+    MdCardModule.forRoot(),
+    MdButtonModule.forRoot(),
+    MdToolbarModule.forRoot(),
+    MdSidenavModule.forRoot(),
+    MdIconModule.forRoot(),
+    MdListModule.forRoot(),
     routes,
   ],
   declarations: [
