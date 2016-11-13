@@ -25,7 +25,7 @@
       // other libraries
       'rxjs':                       'npm:rxjs',
       'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
-      '@angular2-material': 'npm:@angular2-material'
+      '@angular/material': 'npm:@angular/material'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -40,34 +40,39 @@
         main: './index.js',
         defaultExtension: 'js'
       },
-      '@angular2-material/core': {
+      '@angular/material': {
         format: 'cjs',
-        main: './core.umd.js'
-      },
-      '@angular2-material/button': {
-        format: 'cjs',
-        main: './button.umd.js'
-      },
-      '@angular2-material/card': {
-        format: 'cjs',
-        main: './card.umd.js'
-      },
-      '@angular2-material/toolbar': {
-        format: 'cjs',
-        main: './toolbar.umd.js'
-      },
-      '@angular2-material/sidenav': {
-        format: 'cjs',
-        main: './sidenav.umd.js'
-      },
-      '@angular2-material/icon': {
-        format: 'cjs',
-        main: './icon.umd.js'
-      },
-      '@angular2-material/list': {
-        format: 'cjs',
-        main: './list.umd.js'
+        main: 'material.umd.js',
+        defaultExtension: 'js'
       }
+      // '@angular2-material/core': {
+      //   format: 'cjs',
+      //   main: './core.umd.js'
+      // },
+      // '@angular2-material/button': {
+      //   format: 'cjs',
+      //   main: './button.umd.js'
+      // },
+      // '@angular2-material/card': {
+      //   format: 'cjs',
+      //   main: './card.umd.js'
+      // },
+      // '@angular2-material/toolbar': {
+      //   format: 'cjs',
+      //   main: './toolbar.umd.js'
+      // },
+      // '@angular2-material/sidenav': {
+      //   format: 'cjs',
+      //   main: './sidenav.umd.js'
+      // },
+      // '@angular2-material/icon': {
+      //   format: 'cjs',
+      //   main: './icon.umd.js'
+      // },
+      // '@angular2-material/list': {
+      //   format: 'cjs',
+      //   main: './list.umd.js'
+      // }
     }
   });
 })(this);

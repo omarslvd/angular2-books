@@ -20,6 +20,12 @@
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@angular/http/-/http-2.1.2.tgz#50aa96c3b68a44b98e3f837886c96e5930eb543a"
 
+"@angular/material@^2.0.0-alpha.9-3":
+  version "2.0.0-alpha.9-experimental-pizza"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-2.0.0-alpha.9-experimental-pizza.tgz#fff31d82899b7daac6bf3fbeca35bc8c948c2408"
+  dependencies:
+    "@types/hammerjs" "^2.0.30"
+
 "@angular/platform-browser-dynamic@~2.1.1":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.1.2.tgz#3d51b494cfe0a29354c8c1f28369883679982af4"
@@ -36,39 +42,11 @@
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@angular/upgrade/-/upgrade-2.1.2.tgz#fc9423f87fcae418a0ae3b8d56c615d93563d44f"
 
-"@angular2-material/button@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/button/-/button-2.0.0-alpha.8-experimental3.tgz#9effcb2c560e214a6d12d0c43da039da46339de4"
-
-"@angular2-material/card@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/card/-/card-2.0.0-alpha.8-experimental3.tgz#2360ec8dadfdc5a90bbf667ceed7126aa9a20da2"
-
-"@angular2-material/core@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/core/-/core-2.0.0-alpha.8-experimental3.tgz#7bf7714dda49bcc678fd32ff26573617c101d892"
-
-"@angular2-material/icon@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/icon/-/icon-2.0.0-alpha.8-experimental3.tgz#37731c5cc7ad4f2c2f009fe089f19ed1c0ef074a"
-
-"@angular2-material/list@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/list/-/list-2.0.0-alpha.8-experimental3.tgz#3d7e1e2563db3a12724d44766719b025f4b2e9c4"
-
-"@angular2-material/sidenav@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/sidenav/-/sidenav-2.0.0-alpha.8-experimental3.tgz#32529f08fa530687ec20152a9385ebc9da0783a6"
-
-"@angular2-material/toolbar@^2.0.0-alpha.8-2":
-  version "2.0.0-alpha.8-experimental3"
-  resolved "https://registry.yarnpkg.com/@angular2-material/toolbar/-/toolbar-2.0.0-alpha.8-experimental3.tgz#ff249105b832a174d21165f32910f20babc0e6f0"
-
 "@types/core-js@^0.9.34":
   version "0.9.34"
   resolved "https://registry.yarnpkg.com/@types/core-js/-/core-js-0.9.34.tgz#72c521d8e59fdaa8b65f76db71fa53c82c7c21c5"
 
-"@types/hammerjs@^2.0.32":
+"@types/hammerjs@^2.0.30", "@types/hammerjs@^2.0.32":
   version "2.0.33"
   resolved "https://registry.yarnpkg.com/@types/hammerjs/-/hammerjs-2.0.33.tgz#45f57352474181425bb4b65f7313a60426d54bab"
 

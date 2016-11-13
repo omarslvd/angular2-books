@@ -1,14 +1,14 @@
-<md-sidenav-layout class="demo-root" fullscreen>
-    <md-sidenav #start>
+<md-sidenav-layout>
+    <md-sidenav #sidenav>
         <md-nav-list>
             <a md-list-item [routerLink]="['book/list']">Books</a>
             <a md-list-item [routerLink]="['book/search']">Search</a>
         </md-nav-list>
-        <button md-button (click)="start.close()">CLOSE</button>
+        <button md-raised-button color="accent" (click)="sidenav.close()">CLOSE</button>
     </md-sidenav>
     <div>
         <md-toolbar color="primary">
-            <button md-icon-button (click)="start.open()">
+            <button md-icon-button (click)="sidenav.open()">
                 <md-icon class="md-24" >menu</md-icon>
             </button>
             <div class="demo-toolbar">
@@ -20,3 +20,27 @@
         </div>
     </div>
 </md-sidenav-layout>
+
+<!--This layout change a little-->
+<!--<div>
+    <md-toolbar color="primary">
+        <button md-icon-button (click)="sidenav.open()">
+            <md-icon class="md-24" >menu</md-icon>
+        </button>
+        <div class="demo-toolbar">
+            <h1>Angular 2 Books</h1>
+        </div>
+    </md-toolbar>
+    <md-sidenav-layout>
+        <md-sidenav #sidenav>
+            <md-nav-list>
+                <a md-list-item [routerLink]="['book/list']">Books</a>
+                <a md-list-item [routerLink]="['book/search']">Search</a>
+            </md-nav-list>
+            <button md-raised-button color="accent" (click)="sidenav.close()">CLOSE</button>
+        </md-sidenav>
+        <div class="demo-content">
+            <router-outlet></router-outlet>
+        </div>    
+    </md-sidenav-layout>
+</div>-->

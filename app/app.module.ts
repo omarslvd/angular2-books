@@ -1,13 +1,14 @@
-import { NgModule }      from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule }     from '@angular/http';
-import { MdCoreModule } from '@angular2-material/core';
-import { MdCardModule } from '@angular2-material/card';
-import { MdButtonModule } from '@angular2-material/button';
-import { MdToolbarModule } from '@angular2-material/toolbar';
-import { MdSidenavModule } from '@angular2-material/sidenav';
-import { MdIconModule } from '@angular2-material/icon';
-import { MdListModule } from '@angular2-material/list'
+import { HttpModule } from '@angular/http';
+import { MaterialModule } from '@angular/material'; 
+// import { MdCoreModule } from '@angular2-material/core';
+// import { MdCardModule } from '@angular2-material/card';
+// import { MdButtonModule } from '@angular2-material/button';
+// import { MdToolbarModule } from '@angular2-material/toolbar';
+// import { MdSidenavModule } from '@angular2-material/sidenav';
+// import { MdIconModule } from '@angular2-material/icon';
+// import { MdListModule } from '@angular2-material/list'
 
 import { AppComponent }  from './app.component';
 import { BookListComponent }  from './book-list.component';
@@ -21,13 +22,7 @@ import { routes } from './app.routes';
   imports: [
     BrowserModule,
     HttpModule,
-    MdCoreModule.forRoot(),
-    MdCardModule.forRoot(),
-    MdButtonModule.forRoot(),
-    MdToolbarModule.forRoot(),
-    MdSidenavModule.forRoot(),
-    MdIconModule.forRoot(),
-    MdListModule.forRoot(),
+    MaterialModule.forRoot(),
     routes,
   ],
   declarations: [

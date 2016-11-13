@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
   background-color: #FAFAFA;
 }
@@ -17,6 +18,10 @@ body md-sidenav [md-button] {
   position: relative;
   bottom: 0;
   margin: 24px 0;
+}
+
+[md-raised-button] {
+  width: 100%;
 }
 
 body .demo-content {
